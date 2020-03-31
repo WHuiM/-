@@ -85,8 +85,7 @@ CMy0323课堂实验_2Doc* CMy0323课堂实验_2View::GetDocument() const // 非调试版本是
 void CMy0323课堂实验_2View::OnDifferentcolor()
 {
 	// TODO: 在此添加命令处理程序代码
-	int r, a, b,l,m,n;
-	l = 200; m = 256; n = 256;
+	int r, a, b;
 	CClientDC dc(this);//显示半径渐变的圆
 	CRect cr;
 	this->GetClientRect(&cr);
@@ -100,15 +99,14 @@ void CMy0323课堂实验_2View::OnDifferentcolor()
 	{
 		if (r > 0)
 		{
-			CPen NewPen(PS_SOLID, 2, RGB(l, m, n)), *p01dPen;
+			
+			CPen NewPen(PS_SOLID, 2, RGB(15*(i+1), 256-15*(i+1), 256-15*(i+1))), *p01dPen;
 			p01dPen = dc.SelectObject(&NewPen);
 			dc.Ellipse(a / 2 - r, b / 2 - r, a / 2 + r, b / 2 + r);
 			dc.SelectObject(p01dPen);
 			NewPen.DeleteObject();
 			r -= 20;
-			l -= 20;
-			m -= 20;
-			n -= 20;
+			
 			
 			
 
