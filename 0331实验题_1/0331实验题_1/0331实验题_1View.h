@@ -18,9 +18,9 @@ public:
 // 操作
 	 
 public:
-	CString m_strLine;
-	CPoint m_ptorigin;
-	CRect cr;
+	int i; CString s;
+	int x, y;
+	
 // 重写
 public:
 	virtual void OnDraw(CDC* pDC);  // 重写以绘制该视图

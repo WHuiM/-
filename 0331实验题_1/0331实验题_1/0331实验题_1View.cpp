@@ -31,10 +31,8 @@ END_MESSAGE_MAP()
 CMy0331实验题_1View::CMy0331实验题_1View()
 {
 	// TODO: 在此处添加构造代码
-	m_strLine=" ";
-	m_ptorigin.x=0;  m_ptorigin.y = 0;
-	cr.top = 0; cr.left = 0;
-	cr.bottom = 800; cr.right = 800; 
+	i = 1;
+	x = 0; y = 0;
 }
 
 CMy0331实验题_1View::~CMy0331实验题_1View()
@@ -50,7 +48,8 @@ BOOL CMy0331实验题_1View::PreCreateWindow(CREATESTRUCT& cs)
 }
 
 // CMy0331实验题_1View 绘制
-
+CRect cr(200, 200, 500, 350);
+CRect cr1(190, 190, 550, 350);
 void CMy0331实验题_1View::OnDraw(CDC* pDC)
 {
 	CMy0331实验题_1Doc* pDoc = GetDocument();
@@ -60,7 +59,8 @@ void CMy0331实验题_1View::OnDraw(CDC* pDC)
 
 	// TODO: 在此处为本机数据添加绘制代码
 	
-	pDC->Rectangle(cr);
+	pDC->Rectangle(cr1);
+	
 }
 
 
@@ -91,13 +91,13 @@ CMy0331实验题_1Doc* CMy0331实验题_1View::GetDocument() const // 非调试版本是内联
 void CMy0331实验题_1View::OnLButtonDown(UINT nFlags, CPoint point)
 {
 	// TODO: 在此添加消息处理程序代码和/或调用默认值
-	SetCaretPos(point);
+	/*SetCaretPos(point);
 	m_strLine.Empty();
 	if (cr.PtInRect(point))
 	{
 		m_ptorigin.x = point.x;
 		m_ptorigin.y = point.y;
-	}
+	}*/
 	
 	CView::OnLButtonDown(nFlags, point);
 }
@@ -107,31 +107,21 @@ void CMy0331实验题_1View::OnChar(UINT nChar, UINT nRepCnt, UINT nFlags)
 {
 	// TODO: 在此添加消息处理程序代码和/或调用默认值
 	CClientDC dc(this);
+	CString ch;
 	
-	TEXTMETRIC tm;
-	dc.GetTextMetrics(&tm);
-	if (0x0d == nChar)
+	int postion;
+	int flag;
+	ch.Format(_T("%c"), nChar);
+	if (x > 200 && y > 200)
 	{
-		m_strLine.Empty();
-		m_ptorigin.y += tm.tmHeight;
+		postion = (x - 200) / 10 + (y - 200) / 20 * 30;
+		s.Insert(postion, nChar);
 	}
-	  if(0x08==nChar)
+	else
 	{
-		COLORREF clr = dc.SetTextColor(dc.GetBkColor());
-		dc.TextOutW(m_ptorigin.x, m_ptorigin.y, m_strLine);
-		m_strLine = m_strLine.Left(m_strLine.GetLength() - 1);
-		dc.SetTextColor(clr);
-
-	} 
-	 else
-	 {
-		 m_strLine +=(char) nChar;
-	 }
-	 CSize sz = dc.GetTextExtent(m_strLine);
-	 CPoint pt;
-	 pt.x = m_ptorigin.x + sz.cx;
-	 pt.y = m_ptorigin.x = sz.cy;
-	 SetCaretPos(pt);
-	 dc.TextOutW(m_ptorigin.x, m_ptorigin.y, m_strLine);
+		s.Append(ch);
+	}
+	dc.DrawText(s, cr, DT_LEFT | DT_WORDBREAK | DT_EDITCONTROL);
+	
 	CView::OnChar(nChar, nRepCnt, nFlags);
 }
