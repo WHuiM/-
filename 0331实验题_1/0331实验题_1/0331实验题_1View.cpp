@@ -48,8 +48,8 @@ BOOL CMy0331实验题_1View::PreCreateWindow(CREATESTRUCT& cs)
 }
 
 // CMy0331实验题_1View 绘制
-CRect cr(200, 200, 500, 350);
-CRect cr1(190, 190, 550, 350);
+CRect cr(200, 200, 500, 220);
+CRect cr1(190, 190, 510, 350);
 void CMy0331实验题_1View::OnDraw(CDC* pDC)
 {
 	CMy0331实验题_1Doc* pDoc = GetDocument();
