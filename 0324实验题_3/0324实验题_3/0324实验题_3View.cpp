@@ -123,7 +123,7 @@ void CMy0324สตั้ฬโ_3View::OnLButtonDown(UINT nFlags, CPoint point)
 	this->GetClientRect(&c1);
 	a.x = point.x;
 	a.y = point.y;
-	Invalidate();
+	
 	CView::OnLButtonDown(nFlags, point);
 }
 
