@@ -186,6 +186,7 @@ FONT 8, "MS Shell Dlg", 400, 0, 0x1
 BEGIN
     DEFPUSHBUTTON   "确定",IDOK,199,156,50,14
     PUSHBUTTON      "取消",IDCANCEL,253,156,50,14
+    LTEXT           "请点击确定按钮来退出对话框",IDC_STATIC,70,87,113,23
 END
 
 
