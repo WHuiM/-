@@ -44,9 +44,9 @@ END_MESSAGE_MAP()
 void MYDIALOG::OnBnClickedButton1()
 {
 	// TODO: 在此添加控件通知处理程序代码
-	CString s;
+	CString ss;
 	UpdateData(true);
-	s.Format(_T("%d"), s2);
-	s3 = s1 + s;
+	ss.Format(_T("%d"), s2);
+	s3 = s1 + ss;
 	UpdateData(false);
 }
