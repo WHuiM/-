@@ -33,9 +33,9 @@ Cweek7_3View::Cweek7_3View()
 {
 	// TODO: 在此处添加构造代码
 	cr.left = 100; cr.top = 200;
-	cr.right = 200, cr.bottom = 300;
+	cr.right = 150, cr.bottom = 250;
 	flag = 1;
-	sw = 1;
+	sw = 0;
 }
 
 Cweek7_3View::~Cweek7_3View()
@@ -60,14 +60,12 @@ void Cweek7_3View::OnDraw(CDC* pDC)
 		return;
 
 	// TODO: 在此处为本机数据添加绘制代码
-	if (sw)
-	{
+	
 		SetTimer(1, 200, NULL);
-	}
 	
 	CBrush newpen(RGB(250,100,200));
 	CBrush *oldpen = pDC->SelectObject(&newpen);
-	pDC->Rectangle(cr);
+	pDC->Ellipse(cr);
 	pDC->SelectObject(oldpen);
 }
 
