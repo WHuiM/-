@@ -93,9 +93,10 @@ void Cweek91View::OnPopDialog()
 	int r = cfd.DoModal();
 	if (r == IDOK)
 	{
-		pDoc->filename = cfd.GetPathName();
 		ofstream out;
-		out.open("abc.txt", std::ios::out | std::ios::app);
-		out << pDoc->filename << endl;
+		out.open(_T("abc.txt"), std::ios::out | std::ios::app);
+		out <<CT2A( cfd.GetPathName().GetString()) << endl;
+		
+		
 	}
 }
