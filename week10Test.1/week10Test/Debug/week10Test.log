@@ -1,0 +1,15 @@
+﻿生成启动时间为 2020/5/6 0:30:37。
+     1>项目“C:\Users\14330\Documents\Visual Studio 2015\Projects\week10Test.1\week10Test\week10Test.vcxproj”在节点 2 上(Build 个目标)。
+     1>Link:
+         D:\program files\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\14330\Documents\Visual Studio 2015\Projects\week10Test.1\Debug\week10Test.exe" /INCREMENTAL /NOLOGO /LIBPATH:..\Debug week10Test.1.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"D:\program files\VC\Include\Manifest\dpiaware.manifest" /Debug /PDB:"C:\Users\14330\Documents\Visual Studio 2015\Projects\week10Test.1\Debug\week10Test.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\14330\Documents\Visual Studio 2015\Projects\week10Test.1\Debug\week10Test.lib" /MACHINE:X86 Debug\week10Test.res
+         Debug\MainFrm.obj
+         Debug\stdafx.obj
+         Debug\week10Test.obj
+         Debug\week10TestDoc.obj
+         Debug\week10TestView.obj
+         week10Test.vcxproj -> C:\Users\14330\Documents\Visual Studio 2015\Projects\week10Test.1\Debug\week10Test.exe
+     1>已完成生成项目“C:\Users\14330\Documents\Visual Studio 2015\Projects\week10Test.1\week10Test\week10Test.vcxproj”(Build 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:00.58
