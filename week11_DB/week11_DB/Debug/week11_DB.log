@@ -1,0 +1,27 @@
+﻿生成启动时间为 2020/5/5 20:41:13。
+     1>项目“C:\Users\14330\Documents\Visual Studio 2015\Projects\week11_DB\week11_DB\week11_DB.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\program files\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"stdafx.h" /Fp"Debug\week11_DB.pch" /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt MainFrm.cpp week11_DB.cpp week11_DBDoc.cpp week11_DBSet.cpp week11_DBView.cpp
+         week11_DBView.cpp
+         week11_DBSet.cpp
+         正在生成代码...
+         正在跳过...(未检测到相关更改)
+         week11_DBDoc.cpp
+         MainFrm.cpp
+         week11_DB.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /l"0x0804" /IDebug\ /nologo /fo"Debug\week11_DB.res" week11_DB.rc 
+       Link:
+         D:\program files\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\14330\Documents\Visual Studio 2015\Projects\week11_DB\Debug\week11_DB.exe" /INCREMENTAL /NOLOGO odbc32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"D:\program files\VC\Include\Manifest\dpiaware.manifest" /Debug /PDB:"C:\Users\14330\Documents\Visual Studio 2015\Projects\week11_DB\Debug\week11_DB.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\14330\Documents\Visual Studio 2015\Projects\week11_DB\Debug\week11_DB.lib" /MACHINE:X86 Debug\week11_DB.res
+         Debug\MainFrm.obj
+         Debug\stdafx.obj
+         Debug\week11_DB.obj
+         Debug\week11_DBDoc.obj
+         Debug\week11_DBSet.obj
+         Debug\week11_DBView.obj
+         week11_DB.vcxproj -> C:\Users\14330\Documents\Visual Studio 2015\Projects\week11_DB\Debug\week11_DB.exe
+     1>已完成生成项目“C:\Users\14330\Documents\Visual Studio 2015\Projects\week11_DB\week11_DB\week11_DB.vcxproj”(Build 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:03.78
