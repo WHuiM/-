@@ -1,0 +1,18 @@
+﻿生成启动时间为 2020/5/5 21:58:23。
+     1>项目“C:\Users\14330\Documents\Visual Studio 2015\Projects\week11Test.1和2\week11Test.1和2\week11Test.1和2.vcxproj”在节点 2 上(Build 个目标)。
+     1>ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /l"0x0804" /IDebug\ /nologo /fo"Debug\week11Test.1和2.res" "week11Test.1和2.rc" 
+       Link:
+         D:\program files\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\14330\Documents\Visual Studio 2015\Projects\week11Test.1和2\Debug\week11Test.1和2.exe" /INCREMENTAL /NOLOGO odbc32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"D:\program files\VC\Include\Manifest\dpiaware.manifest" /Debug /PDB:"C:\Users\14330\Documents\Visual Studio 2015\Projects\week11Test.1和2\Debug\week11Test.1和2.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\14330\Documents\Visual Studio 2015\Projects\week11Test.1和2\Debug\week11Test.1和2.lib" /MACHINE:X86 "Debug\week11Test.1和2.res"
+         Debug\MainFrm.obj
+         Debug\stdafx.obj
+         "Debug\week11Test.1和2.obj"
+         "Debug\week11Test.1和2Doc.obj"
+         "Debug\week11Test.1和2Set.obj"
+         "Debug\week11Test.1和2View.obj"
+         week11Test.1和2.vcxproj -> C:\Users\14330\Documents\Visual Studio 2015\Projects\week11Test.1和2\Debug\week11Test.1和2.exe
+     1>已完成生成项目“C:\Users\14330\Documents\Visual Studio 2015\Projects\week11Test.1和2\week11Test.1和2\week11Test.1和2.vcxproj”(Build 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:00.66
