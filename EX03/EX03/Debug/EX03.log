@@ -1,0 +1,19 @@
+﻿生成启动时间为 2020/5/10 9:23:03。
+     1>项目“C:\Users\14330\Documents\Visual Studio 2015\Projects\EX03\EX03\EX03.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\program files\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yc"stdafx.h" /Fp"Debug\EX03.pch" /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         D:\program files\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"stdafx.h" /Fp"Debug\EX03.pch" /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt EX03.cpp
+         EX03.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Debug\EX03.res" EX03.rc 
+       Link:
+         D:\program files\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\14330\Documents\Visual Studio 2015\Projects\EX03\Debug\EX03.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\14330\Documents\Visual Studio 2015\Projects\EX03\Debug\EX03.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\14330\Documents\Visual Studio 2015\Projects\EX03\Debug\EX03.lib" /MACHINE:X86 Debug\EX03.res
+         Debug\EX03.obj
+         Debug\stdafx.obj
+         EX03.vcxproj -> C:\Users\14330\Documents\Visual Studio 2015\Projects\EX03\Debug\EX03.exe
+     1>已完成生成项目“C:\Users\14330\Documents\Visual Studio 2015\Projects\EX03\EX03\EX03.vcxproj”(Build 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:02.76
